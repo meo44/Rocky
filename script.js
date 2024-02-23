@@ -1,9 +1,3 @@
-console.log("Hello")
-let username = ''
-username = prompt("What is your name")
-console.log(username)
-const intro = document.querySelector('#intro');
-intro.textContent = "Hello " + username
 function botMove (move) {
     if (move == "rock") {
         return "paper"
@@ -24,3 +18,11 @@ function playerMove (move) {
     botThought.src = "images/" + decide + ".jpg"
     alert( username + " LOST")
 }
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Hello")
+    let username = ''
+    username = prompt("What is your name")
+    console.log(username)
+    const intro = document.querySelector('#intro');
+    intro.textContent = "Hello " + username
+})
