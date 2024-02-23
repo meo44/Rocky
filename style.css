@@ -1,3 +1,7 @@
 body {
     background-color: greenyellow;
 }
+#botThought {
+    width: 100%;
+    max-width: 800px;
+}
