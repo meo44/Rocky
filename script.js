@@ -1,3 +1,4 @@
+let username = ''
 function botMove (move) {
     if (move == "rock") {
         return "paper"
@@ -20,7 +21,6 @@ function playerMove (move) {
 }
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Hello")
-    let username = ''
     username = prompt("What is your name")
     console.log(username)
     const intro = document.querySelector('#intro');
