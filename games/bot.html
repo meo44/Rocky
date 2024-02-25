@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p class="show"> Recipes
-      <br>
-      <a class="link" href="../recipes/egg.html">Egg</a>
-      <br>
-      <a class="link" href="../recipes/potato.html">Potato</a>
-      <br>
-      <a class="link" href="../recipes/meat.html">Meat</a>
-      <br>
-    <p class="show">Games
-      <br>
-      <a class="link" href="../games/bot.html">Rock Paper Scissors</a>
-      <br>
-      <a class="link" href="../games/cookie.html">Cookie</a>
-      <br>
-      </p>
+    <a class="home" href="../index.html">Home</a>
+    <div class ="dropdown">
+      <button class="dropbtn"> Recipes </button>
+         <div class="dropdown-content" >
+          <a href="../recipes/egg.html">Egg</a>
+          <a href="../recipes/potato.html">Potato</a>
+          <a href="../recipes/meat.html">Meat</a>
+          </div>
+        </div>
+      <div class="dropdown">
+      <button class="dropbtn">Games</button>
+        <div class="dropdown-content">
+          <a href="../games/bot.html">Rock Paper Scissors</a>
+          <a href="../games/cookie.html">Cookie</a>
+        </div>
+      </div>
     <h1 id="intro">Hello User</h1>
     <button onclick="playerMove('rock')">Rock</button>
     <button onclick ="playerMove('paper')">Paper</button>
@@ -31,6 +32,5 @@
     <h2>My Move</h2>
     <p id="botText"></p>
     <img id="botThought" src="../images/desktop.png"/>
-    <a href="../index.html">Home</a>
   </body>
 </html>

@@ -17,7 +17,7 @@ function playerMove (move) {
     console.log(decide)
     const botThought = document.querySelector('#botThought');
     botThought.src = "../images/" + decide + ".jpg"
-    alert( username + " LOST")
+    alert( username + " LOST TRY AGAIN NEXT TIME")
 }
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Hello")
