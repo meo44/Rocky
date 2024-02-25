@@ -5,3 +5,9 @@ body {
     width: 100%;
     max-width: 800px;
 }
+.link {
+    display: none;
+  }
+.show:hover .link {
+    display: inline-block;
+  }
