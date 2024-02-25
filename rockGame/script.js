@@ -16,7 +16,7 @@ function playerMove (move) {
     botText.textContent = decide
     console.log(decide)
     const botThought = document.querySelector('#botThought');
-    botThought.src = "images/" + decide + ".jpg"
+    botThought.src = "../images/" + decide + ".jpg"
     alert( username + " LOST")
 }
 document.addEventListener('DOMContentLoaded', () => {
@@ -25,7 +25,4 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(username)
     const intro = document.querySelector('#intro');
     intro.textContent = "Hello " + username
-    if (username == "null") {
-        username = "Username"
-    }
 })

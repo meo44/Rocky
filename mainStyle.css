@@ -1,0 +1,13 @@
+body {
+    background-color: blanchedalmond;
+}
+.link {
+    display: none;
+  }
+.show:hover .link {
+    display: inline-block;
+  }
+img {
+    width: 100%;
+    max-width: 800px;
+}
