@@ -25,4 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(username)
     const intro = document.querySelector('#intro');
     intro.textContent = "Hello " + username
+    if (username == "null") {
+        username = "Username"
+    }
 })
