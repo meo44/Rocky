@@ -4,9 +4,10 @@
     <link rel="stylesheet" href="presidentStyle.css">
   </head>
   <body>
+    <div class="box">
     <a class="home" href="../index.html">Home</a>
     <div class ="dropdown">
-      <button class="dropbtn"> Recipes </button>
+      <a class="dropbtn home" href="../recipes/mainRecipes.html">Recipes</a>
          <div class="dropdown-content" >
           <a href="../recipes/egg.html">Egg</a>
           <a href="../recipes/potato.html">Potato</a>
@@ -14,31 +15,31 @@
           </div>
         </div>
       <div class="dropdown">
-      <button class="dropbtn">Games</button>
+        <a class="dropbtn home" href="../games/mainGames.html">Games</a>
         <div class="dropdown-content">
           <a href="../games/bot.html">Rock Paper Scissors</a>
         </div>
       </div>
-
+    </div>
+    <div id="mid" class="box">
     <a class="home" href="mainPresident.html">White House</a>
-
+    </div>
+    <div id="left" class="box">
     <a class="red home" href="1789-1800.html">1789s-1800s</a>
-
     <a class="orange home" href="1800-1850.html">1800s-1850s</a>
-
     <a class="yellow home" href="1850-1900.html">1850s-1900s</a>
-
+    </div>
+    <div id="right" class="box">
     <a class="green home" href="1900-1950.html">1900s-1950s</a>
-
     <a class="blue home" href="1950-2000.html">1950s-2000s</a>
-
     <a class="pink home" href="2000-Today.html">2000s-Today</a>  
-    
+    </div>
     <h1>Fun Facts About Presidents</h1>
     <hr>
-    <img id="mid" src="../pimages/white-house.jpg" alt="White House" />
-
-    <p>The Office Presidency. This site gives you fun facts about these presidents. They are ordered in the year they acended to the office.</p>
+    <div id="mid">
+    <p>This site gives you fun facts about these presidents.</p>
+    <p>They are ordered in the year they acended to the office.</p>
+    <img id="large" src="../pimages/white-house.jpg" alt="White House" />
     <h4>If your looking for a specific president refer to this list</h4>
     <ol class="right">
       <a class="pre" href="1789-1800.html"><li class="red">George Washington(1789-1797)</li></a>
@@ -88,5 +89,6 @@
       <a class="pre" href="2000-Today.html"><li class="pink">Donald Trump(2017-2021)</li></a>
       <a class="pre" href="2000-Today.html"><li class="pink">Joe Biden(2021-Today)</li></a>
     </ol>
+    </div>
   </body>
 </html>

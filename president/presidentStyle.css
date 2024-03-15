@@ -15,7 +15,7 @@
   }
   h4 {
     color:#14ff00;
-    font-size: 18px;
+    font-size: 20px;
   }
   h6 {
     color: gray;
@@ -24,7 +24,9 @@
     font-size: 10px;
   }
   p {
-    color: white
+    color: white;
+    font-size: 20px;
+    margin: 0%;
   }
   .list{
     margin:auto;
@@ -33,9 +35,9 @@
   li {
     color: white;
   }
-  .right{
-    margin:10px;
+  ol {
     text-align: left;
+    margin: 0%;
   }
   a {
     border-style: hidden;
@@ -53,7 +55,7 @@
     background: none;
   }
   .red {
-    color: #ff4848;
+    color: red;
   }
   .orange {
     color: orange;
@@ -62,13 +64,13 @@
     color: yellow;
   }
   .green {
-    color: green;
+    color: #00ff00;
   }
   .blue {
     color: cyan;
   }
   .pink {
-    color: pink;
+    color: hotpink;
   }
   img {
     height: 90px;
@@ -78,10 +80,14 @@
     border-color: #00905f;
     float: right;
   }
+  #large {
+    width: 75%;
+    height: 75%;
+  }
   #mid {
-    display: block;
-    margin-left: 50%;
-    margin-right: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   hr {
     color: white;
@@ -125,4 +131,14 @@
   .dropdown:hover .dropbtn {
       background-color: #3e8e41;
     }
-  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #left {
+    float: left;
+  }
+  #right {
+    float: right;
+  }
