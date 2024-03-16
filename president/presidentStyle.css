@@ -54,22 +54,22 @@
     border-style: none;
     background: none;
   }
-  .red {
+  #red {
     color: red;
   }
-  .orange {
+  #orange {
     color: orange;
   }
-  .yellow {
+  #yellow {
     color: yellow;
   }
-  .green {
+  #green {
     color: #00ff00;
   }
-  .blue {
+  #blue {
     color: cyan;
   }
-  .pink {
+  #pink {
     color: hotpink;
   }
   img {
@@ -135,10 +135,4 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  }
-  #left {
-    float: left;
-  }
-  #right {
-    float: right;
   }
