@@ -44,7 +44,6 @@
     padding: inherit;
     text-decoration: none;
     background-color: purple;
-    color: white;
     border-color: floralwhite;
     margin: 5px;
     border-radius: 5px;
@@ -80,9 +79,14 @@
     border-color: #00905f;
     float: right;
   }
+  #no {
+    border: none;
+    background: none;
+  }
   #large {
-    width: 75%;
-    height: 75%;
+    height: auto;
+    width: 70%;
+    float: none;
   }
   #mid {
     display: flex;
@@ -116,12 +120,11 @@
       z-index: 1;
     }
   .dropdown-content a {
-      color: black;
+      color: white;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
     }
-    
   .dropdown-content a:hover  {
       background-color: #f1f1f1
   }

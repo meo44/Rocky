@@ -1,26 +1,43 @@
 body {
   background-color: whitesmoke;
 }
+h2 {
+  font-size: 2em;
+}
+p {
+  font-size: 1em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 #line {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-h1 {
-  padding: 0px 30% 0px 30%;
-  font-size: 1.5vw;
-}
-h4 {
-  font-size: 1vw;
-}
 #mid {
   display: flex;
-  align-items: last baseline;
+  align-items: flex-end;
+  gap: 200px;
+  margin-left: auto;
+}
+.date {
+  flex-basis: 1;
+}
+.title {
+  flex: 3;
+}
+video{
+  min-width: 350px;
+}
+img {
+  min-width: 200px;
+  max-width: fit-content;
 }
 .content {
   display: flex;
   flex-wrap: wrap;
-  align-items: space-between;
 }
 .dropbtn {
   background-color: whitesmoke;
