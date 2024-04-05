@@ -88,6 +88,11 @@
     width: 70%;
     float: none;
   }
+  #left {
+    height: auto;
+    width: 15%;
+    float: left;
+  }
   #mid {
     display: flex;
     flex-direction: column;
