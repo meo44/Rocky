@@ -1,6 +1,9 @@
 body {
     background-color: blanchedalmond;
 }
+.linkBar {
+    display: flex;
+}
 .home {
   text-decoration: none;
   background-color: #4CAF50;
