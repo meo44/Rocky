@@ -11,6 +11,9 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  text-decoration: underline;
+}
 #line {
   display: flex;
   justify-content: space-around;
@@ -18,26 +21,35 @@ a {
 }
 #mid {
   display: flex;
-  align-items: flex-end;
-  gap: 200px;
-  margin-left: auto;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .date {
-  flex-basis: 1;
+  font-size: 2vw;
+  flex-grow: 1;
 }
 .title {
-  flex: 3;
+  font-size: 3vw;
+  flex-grow: 2;
 }
 video{
   min-width: 350px;
+  max-width: 100%;
 }
 img {
   min-width: 200px;
-  max-width: fit-content;
+  max-width: 100%;
 }
-.content {
+.one {
   display: flex;
-  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: last baseline;
+  gap: 3%;
+}
+#oneImg {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .dropbtn {
   background-color: whitesmoke;
@@ -48,9 +60,6 @@ img {
   border: none;
   cursor: pointer;
   text-decoration: none;
-}
-.dropbtn:hover {
-  text-decoration: underline;
 }
 .dropdown {
   position: relative;
