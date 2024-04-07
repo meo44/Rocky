@@ -3,6 +3,8 @@ body {
 }
 .linkBar {
     display: flex;
+    align-items: baseline;
+    gap: 1%;
 }
 .home {
   text-decoration: none;

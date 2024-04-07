@@ -1,6 +1,11 @@
 body {
     background-color: blanchedalmond;
 }
+.linkBar {
+  display: flex;
+  align-items: baseline;
+  gap: 1%;
+}
 .home {
   text-decoration: none;
   background-color: #4CAF50;
