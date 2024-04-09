@@ -58,3 +58,8 @@ img {
     width: 100%;
     max-width: 800px;
 }
+#canvas {
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
