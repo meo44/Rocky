@@ -1,3 +1,4 @@
+let color = 'black';
 window.addEventListener('load', () =>{
   const canvas = document.querySelector('#canvas');
   const ctx = canvas.getContext('2d');
@@ -20,6 +21,7 @@ window.addEventListener('load', () =>{
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
     ctx.lineWidth = 10;
+    ctx.strokeStyle = color;
     ctx.lineCap = 'round';
     ctx.lineTo(x, y);
     ctx.stroke();
@@ -27,3 +29,16 @@ window.addEventListener('load', () =>{
     ctx.moveTo(x, y)
   }
 })
+function paint (tool) {
+  const canvas = document.querySelector('#canvas');
+  const ctx = canvas.getContext('2d');
+  if (tool == 'draw') {
+    color = 'black'
+  }
+  if (tool == "eraser") {
+    color = 'white';
+  }
+  if (tool == "clear") {
+    ctx.clearRect(0,0, canvas.width, canvas.height);
+  }
+}

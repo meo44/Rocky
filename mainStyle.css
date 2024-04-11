@@ -62,4 +62,8 @@ img {
   border: solid;
   border-width: 2px;
   border-color: black;
+  background-color: white;
+}
+button:focus {
+  background-color: yellow;
 }
