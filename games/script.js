@@ -19,17 +19,27 @@ function playerMove (move) {
     const botThought = document.querySelector('#botThought');
     botThought.src = "../images/" + decide + ".jpg"
     times = times + 1
+    if (times == 1) {
+        alert(username + " LOST TRY AGAIN NEXT TIME")
+    }
     if (times == 2) {
         alert(username + " HAS FAILED AGAIN")
     }
     if (times == 3) {
-        alert("HAAHAHAHAHA DIDN'T SEE THAT DID YOU")
+        alert("HAAHAHAHAHA " + username + " DIDN'T SEE THAT COMING")
     }
     if (times == 4) {
         alert("FACE IT " + username + " YOU ARE INFERIOR")
     }
-    if (times > 4 || times == 1) {
-        alert(username + " LOST TRY AGAIN NEXT TIME")
+    if (times >= 5) {
+        alert("COME BACK WHEN YOUR'RE BETTER " + username)
+    }
+}
+
+document.addEventListener('mousedown', movement)
+function (movement) {
+    if(botThought == '../images/scissors.jpg') return {
+
     }
 }
 document.addEventListener('DOMContentLoaded', () => {
