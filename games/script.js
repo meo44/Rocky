@@ -35,13 +35,6 @@ function playerMove (move) {
         alert("COME BACK WHEN YOUR'RE BETTER " + username)
     }
 }
-
-document.addEventListener('mousedown', movement)
-function (movement) {
-    if(botThought == '../images/scissors.jpg') return {
-
-    }
-}
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Hello")
     username = prompt("What is your name")
