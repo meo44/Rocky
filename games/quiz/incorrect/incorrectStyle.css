@@ -1,10 +1,6 @@
 body {
     background-color: greenyellow;
 }
-#botThought {
-    width: 100%;
-    max-width: 800px;
-}
 .linkBar {
   display: flex;
   align-items: baseline;
@@ -63,6 +59,37 @@ body {
 }
 #answer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 1em;
+  flex-wrap: wrap;
+}
+button {
+  width: 40%;
+  height: 5em;
+  background-color: #378e3a;
+  border-style: double;
+  border-width: 1em;
+  font-size: 1rem;
+  color: rgb(188, 255, 174);
+}
+button:hover {
+  background-color: #1a541c;
+  color: #4CAF50;
+}
+h1 {
+  background-color: rgb(151, 223, 44);
+  font-style: italic;
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+#cover {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.you {
+  width: auto;
+  height: auto;
 }
