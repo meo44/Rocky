@@ -21,6 +21,7 @@ function question (answers) {
         anger = anger + 1
         if(anger > 3) {
             window.open("file:///C:/Users/kelde/Documents/meklez/Rocky/games/quiz/incorrect/wrong.html")
+            window.close("quiz")
         }
     }
     if (answers == "right") {
@@ -30,5 +31,3 @@ function question (answers) {
     }    
     currentUrl = window.location.href;
 }
-
-

@@ -58,12 +58,71 @@ img {
     width: 100%;
     max-width: 800px;
 }
+h1 {
+  background-color: rgb(255, 224, 178);
+}
 #canvas {
   border: solid;
   border-width: 2px;
   border-color: black;
   background-color: white;
 }
-button:focus {
+#letsGo {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  color: white;
+  padding: 5px 10px;
+  border-style: none;
+}
+#clear {
+  background-color: lightgrey;
+  color: black;
+}
+#clear:hover {
+  background-color: white;
+}
+#black {
+  background-color: black;
+}
+#black:hover {
+  background-color: rgb(54, 54, 54);
+}
+#red {
+  background-color: red;
+}
+#red:hover {
+  background-color: rgb(255, 82, 82);
+}
+#orange {
+  background-color: orangered;
+}
+#orange:hover {
+  background-color: rgb(255, 120, 70);
+}
+#yellow {
   background-color: yellow;
+  color: black;
+}
+#yellow:hover {
+  background-color: rgb(253, 253, 93);
+}
+#green {
+  background-color: green;
+}
+#green:hover {
+  background-color: rgb(62, 216, 62);
+}
+#blue {
+  background-color: blue;
+}
+#blue:hover {
+  background-color: rgb(71, 71, 255);
+}
+#purple {
+  background-color: purple;
+}
+#purple:hover {
+  background-color: rgb(196, 50, 196);
 }

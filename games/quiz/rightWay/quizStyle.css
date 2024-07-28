@@ -83,8 +83,16 @@ h1 {
 }
 h2 {
   font-size: 2em;
+  margin-bottom: 1%;
 }
 .fancy {
   font-style: italic;
   font-size: 1.2em;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  height: 18em;
 }

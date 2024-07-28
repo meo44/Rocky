@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="mainStyle.css">
     <title>Home</title>
   </head>
-  <body>
+  <body id="dad">
     <script src="mainScript.js"></script>
     <div class="linkBar">
     <a class="home" href="index.html">Home</a>
@@ -39,11 +39,22 @@
         </div>
       </div>
     </div>
+  <span id="child">
     <h1>HOME</h1>
     <h2>Welcome To My Humble Aborde</h2>
-    <button onclick="paint('draw')" >Draw</button>
-    <button onclick="paint('eraser')">Eraser</button>
-    <button onclick="paint('clear')" >Clear</button>
+    <button onclick="paint('eraser')" id="clear">Eraser</button>
+    <button onclick="paint('clear')" id="clear">Clear</button>
+    <button onclick="paint('black')" id="black">Black</button>
+    <button onclick="paint('red')" id="red">Red</button>
+    <button onclick="paint('orange')" id="orange">Orange</button>
+    <button onclick="paint('yellow')" id="yellow">Yellow</button>
+    <button onclick="paint('green')" id="green">Green</button>
+    <button onclick="paint('blue')" id="blue">Blue</button>
+    <button onclick="paint('purple')" id="purple">Purple</button>
     <canvas id="canvas"></canvas>
+  </span>
+    <button onclick="party()" id="party">Party Time</button>
+    <div id="letsGo">
+    </div>
  </body>
 </html>
